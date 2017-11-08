@@ -14,39 +14,51 @@ namespace Ylesanne_2
 
             Random rnd = new Random();
             int randomNumber = rnd.Next(100);
+
+
             int inputNumber = 0;
             // lisatud counter:
             int attempts = 0;
             Console.Write("Paku number ühest sajani: ");
+            string data = Console.ReadLine();
+            while (!int.TryParse(data, out inputNumber))
+            {
+                Console.WriteLine("Palun sisestage numbriline väärtus!");
+                Console.WriteLine("Paku number ühest sajani: ");
+                break;
+            }
 
+            
 
             while (inputNumber != randomNumber)
             {
-                string data = Console.ReadLine();
-                inputNumber = int.Parse(data);
-
+                
 
                 if (randomNumber < inputNumber)
                 {
                     Console.WriteLine("Sinu number on suurem, kui arvutil, paku uus number: ");
                     attempts++;
+                    break;
                 }
 
                 else if (randomNumber > inputNumber)
                 {
                     Console.WriteLine("Sinu number on väiksem, kui arvutil, paku uus number: ");
                     attempts++;
+                    break;
                 }
 
                 else if (inputNumber > 100)
                 {
                     Console.WriteLine("Pakkusid liiga suure numbri, paku palun number ühest sajani: ");
                     attempts++;
+                    break;
                 }
 
                 else if (inputNumber < 0)
                 {
                     Console.WriteLine("");
+                    break;
                 }
 
                 if (randomNumber == inputNumber)
@@ -58,6 +70,8 @@ namespace Ylesanne_2
                     Process.Start("http://www.stackoverflow.com");
                     break;
                 }
+
+                
             }
 
             Console.ReadKey();

@@ -44,6 +44,7 @@ namespace ConsoleApplication1
                     else
                     {
                         Console.WriteLine("Sinu number on väiksem, kui arvutil, paku uus number: ");
+                        
                     }
                 }
 

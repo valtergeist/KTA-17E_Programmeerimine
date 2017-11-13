@@ -15,7 +15,7 @@ namespace Tunnikontroll
             double tavaklient;
             double pysiklient;
             double Pmakse;
-            double Tmakse; 
+            double Tmakse;
 
 
             sisend1 = SetNumber("Kirjuta siia ostusumma: \n");
@@ -27,7 +27,7 @@ namespace Tunnikontroll
                 pysiklient = (sisend1 / 100 * 20);
                 Pmakse = sisend1 - pysiklient;
                 Console.WriteLine($"Tavakliendi allahindlus on 10% ja püsikliendi allahindlus on 20%");
-                Console.WriteLine($"Tasuda on vaja tavakliendil {Tmakse} eurot  püsikliendil {Pmakse} eurot ");
+                Console.WriteLine($"Tasuda on vaja tavakliendil {Tmakse} eurot püsikliendil {Pmakse} eurot ");
                 Console.ReadKey();
             }
 
@@ -38,7 +38,7 @@ namespace Tunnikontroll
                 pysiklient = (sisend1 / 100 * 30);
                 Pmakse = sisend1 - pysiklient;
                 Console.WriteLine($"Tavakliendi allahindlus on 20% ja püsikliendi allahindlus on 30%");
-                Console.WriteLine($"Tasuda on vaja tavakliendil {Tmakse} eurot  püsikliendil {Pmakse} eurot ");
+                Console.WriteLine($"Tasuda on vaja tavakliendil {Tmakse} eurot püsikliendil {Pmakse} eurot ");
                 Console.ReadKey();
             }
 
@@ -49,7 +49,7 @@ namespace Tunnikontroll
                 pysiklient = (sisend1 / 100 * 40);
                 Pmakse = sisend1 - pysiklient;
                 Console.WriteLine($"Tavakliendi allahindlus on 30% ja püsikliendi allahindlus on 40%");
-                Console.WriteLine($"Tasuda on vaja tavakliendil {Tmakse} eurot  püsikliendil {Pmakse} eurot ");
+                Console.WriteLine($"Tasuda on vaja tavakliendil {Tmakse} eurot püsikliendil {Pmakse} eurot ");
                 Console.ReadKey();
             }
 

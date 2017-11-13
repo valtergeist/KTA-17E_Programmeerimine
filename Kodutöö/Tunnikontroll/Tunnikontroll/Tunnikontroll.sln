@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tunnikontroll", "Tunnikontroll\Tunnikontroll.csproj", "{51B83E07-ADDC-454C-AB5E-9F552F82A651}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoop", "ForLoop\ForLoop.csproj", "{99548467-4767-4179-A0FC-9FBB1071A53B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{51B83E07-ADDC-454C-AB5E-9F552F82A651}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51B83E07-ADDC-454C-AB5E-9F552F82A651}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51B83E07-ADDC-454C-AB5E-9F552F82A651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99548467-4767-4179-A0FC-9FBB1071A53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99548467-4767-4179-A0FC-9FBB1071A53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99548467-4767-4179-A0FC-9FBB1071A53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99548467-4767-4179-A0FC-9FBB1071A53B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

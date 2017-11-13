@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6x6table", "6x6table\6x6table.csproj", "{CBF56874-57B5-49F8-A034-E7551F023959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays", "..\..\Arrays\arrays\arrays.csproj", "{D5A62C62-7417-486B-920F-F92EF6F07E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcuseGenerator", "..\..\Excuses\ExcuseGenerator\ExcuseGenerator.csproj", "{7FA3B75C-4DF4-455A-81F2-DAB4B8B0D549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBF56874-57B5-49F8-A034-E7551F023959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF56874-57B5-49F8-A034-E7551F023959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF56874-57B5-49F8-A034-E7551F023959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF56874-57B5-49F8-A034-E7551F023959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A62C62-7417-486B-920F-F92EF6F07E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A62C62-7417-486B-920F-F92EF6F07E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A62C62-7417-486B-920F-F92EF6F07E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A62C62-7417-486B-920F-F92EF6F07E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA3B75C-4DF4-455A-81F2-DAB4B8B0D549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA3B75C-4DF4-455A-81F2-DAB4B8B0D549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA3B75C-4DF4-455A-81F2-DAB4B8B0D549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA3B75C-4DF4-455A-81F2-DAB4B8B0D549}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

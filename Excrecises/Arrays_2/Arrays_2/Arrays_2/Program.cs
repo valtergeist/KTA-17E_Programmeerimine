@@ -16,6 +16,7 @@ namespace Arrays_2
 
             Console.WriteLine("The length of the array is: " + numbers.Length);
             
+            // Static methods:
 
             // IndexOf()
 

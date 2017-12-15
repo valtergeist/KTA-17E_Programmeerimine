@@ -10,6 +10,8 @@ namespace Tunnikontroll_2
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
             Console.WriteLine("Total Pizza Restaurant");
             Console.WriteLine("Jalopeno way 66");
             Console.WriteLine("-------------------------------------------");
@@ -22,7 +24,6 @@ namespace Tunnikontroll_2
                 totalPrice = totalPrice + price;
             }
             while (price != 1);
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("-------------------------------------------");
             Console.WriteLine($"Subtoital: €{totalPrice}");
 
